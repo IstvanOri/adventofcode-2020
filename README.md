@@ -1,3 +1,5 @@
+[![Python application](https://github.com/IstvanOri/adventofcode-2020/workflows/Python%20application/badge.svg)](https://github.com/IstvanOri/adventofcode-2020/actions/runs/400885672)
+
 VISIT [AdventOfCode.com](https://adventofcode.com/)
 
 # adventofcode-2020
