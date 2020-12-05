@@ -19,4 +19,5 @@ The result will printed for both parts of the puzzle of the day.
  - Day 1: Report Repair
  - Day 2: Password Philosophy
  - Day 3: Toboggan Trajectory
- - Day 4: Passport Processing 
+ - Day 4: Passport Processing
+ - Day 5: Binary Boarding

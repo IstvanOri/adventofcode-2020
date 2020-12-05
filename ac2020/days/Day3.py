@@ -99,11 +99,11 @@ class Day3(AbstractDay.AbstractDay):
 
     def part2(self) -> str:
         mul = 1
-        mul = mul * self.tree_counter(1, 1)
-        mul = mul * self.tree_counter(3, 1)
-        mul = mul * self.tree_counter(5, 1)
-        mul = mul * self.tree_counter(7, 1)
-        mul = mul * self.tree_counter(1, 2)
+        mul *= self.tree_counter(1, 1)
+        mul *= self.tree_counter(3, 1)
+        mul *= self.tree_counter(5, 1)
+        mul *= self.tree_counter(7, 1)
+        mul *= self.tree_counter(1, 2)
         return str(mul)
 
     def tree_counter(self, r, d):
@@ -112,7 +112,7 @@ class Day3(AbstractDay.AbstractDay):
         col = 0
         while row < len(self.entries):
             if self.entries[row][col] == '#':
-                trees = trees + 1
-            row = row + d
-            col = col + r
+                trees += 1
+            row += d
+            col += r
         return trees

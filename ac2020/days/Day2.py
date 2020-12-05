@@ -82,7 +82,7 @@ class Day2(AbstractDay.AbstractDay):
                 return 'No result'
             minmax = e[0].split("-")
             if int(minmax[0]) <= e[2].count(e[1]) <= int(minmax[1]):
-                valid = valid + 1
+                valid += 1
         return str(valid)
 
     def part2(self) -> str:
@@ -93,5 +93,5 @@ class Day2(AbstractDay.AbstractDay):
                 return 'No result'
             positions = e[0].split("-")
             if bool(e[2][int(positions[0]) - 1] == e[1]) ^ bool(e[2][int(positions[1]) - 1] == e[1]):
-                valid = valid + 1
+                valid += 1
         return str(valid)

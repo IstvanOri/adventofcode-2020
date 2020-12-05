@@ -163,7 +163,7 @@ class Day4(AbstractDay.AbstractDay):
                 f = field.split(':')
                 chk[f[0]] = True
             if is_true(chk):
-                valid = valid+1
+                valid += 1
         return str(valid)
 
     def part2(self) -> str:
@@ -202,5 +202,5 @@ class Day4(AbstractDay.AbstractDay):
                     if re.match(r'^\d{9}$', f[1]):
                         chk['pid'] = True
             if is_true(chk):
-                valid = valid + 1
+                valid += 1
         return str(valid)
