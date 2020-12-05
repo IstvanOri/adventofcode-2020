@@ -1,3 +1,5 @@
+[![Python application](https://github.com/IstvanOri/adventofcode-2020/workflows/Python%20application/badge.svg)](https://github.com/IstvanOri/adventofcode-2020/actions?query=workflow%3A%22Python+application%22)
+
 VISIT [AdventOfCode.com](https://adventofcode.com/)
 
 # adventofcode-2020
@@ -19,4 +21,5 @@ The result will printed for both parts of the puzzle of the day.
  - Day 1: Report Repair
  - Day 2: Password Philosophy
  - Day 3: Toboggan Trajectory
- - Day 4: Passport Processing 
+ - Day 4: Passport Processing
+ - Day 5: Binary Boarding
