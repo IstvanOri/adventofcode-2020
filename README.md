@@ -23,3 +23,5 @@ The result will printed for both parts of the puzzle of the day.
  - Day 3: Toboggan Trajectory
  - Day 4: Passport Processing
  - Day 5: Binary Boarding
+ - Day 6: Custom Customs
+ - Day 7: Handy Haversacks
