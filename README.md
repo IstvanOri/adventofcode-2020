@@ -18,10 +18,14 @@ The result will printed for both parts of the puzzle of the day.
 
 # Progress
 
- - Day 1: Report Repair
- - Day 2: Password Philosophy
- - Day 3: Toboggan Trajectory
- - Day 4: Passport Processing
- - Day 5: Binary Boarding
- - Day 6: Custom Customs
- - Day 7: Handy Haversacks
+ - `Day 01: Report Repair`
+ - `Day 02: Password Philosophy`
+ - `Day 03: Toboggan Trajectory`
+ - `Day 04: Passport Processing`
+ - `Day 05: Binary Boarding`
+ - `Day 06: Custom Customs`
+ - `Day 07: Handy Haversacks`
+ - `Day 08: Handheld Halting`
+ - `Day 09: Encoding Error`
+ - `Day 10: Adapter Array`
+ - `Day 11: Seating System`
