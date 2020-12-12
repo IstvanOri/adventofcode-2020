@@ -52,6 +52,9 @@ Day 10: Adapter Array
 Day 11: Seating System
     * t=03:04:43  rank...10454 # Sleepy Joe overslept today
    ** t=03:36:02  rank....8470 # Sleepy Joe overslept today
+Day 12: SRain Risk
+    * t=00:34:02  rank....4648
+   ** t=01:00:52  rank....3974
 ```
 
 In defense of Sleepy Joe, at us it is 6 in the morning when a new puzzle becomes available.
