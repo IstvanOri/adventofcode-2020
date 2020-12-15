@@ -94,15 +94,16 @@ class Day15(AbstractDay.AbstractDay):
     def part2(self) -> str:
         if len(self.entries) == 0:
             return 'No result'
-        log = defaultdict(lambda: -1)
+        log = [-1] * 30000000
         for i, entry in enumerate(self.entries):
             log[entry] = i
         i = len(self.entries)
         last_spoken = self.entries[-1]
         while i < 30000000:
             next_spoken = 0
-            if log[last_spoken] != -1 and log[last_spoken] != i - 1:
-                next_spoken = i - 1 - log[last_spoken]
+            last_occurrence = log[last_spoken]
+            if last_occurrence != -1 and last_occurrence != i - 1:
+                next_spoken = i - 1 - last_occurrence
             log[last_spoken] = i - 1
             last_spoken = next_spoken
             i += 1
