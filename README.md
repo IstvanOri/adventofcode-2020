@@ -52,9 +52,19 @@ Day 10: Adapter Array
 Day 11: Seating System
     * t=03:04:43  rank...10454 # Sleepy Joe overslept today
    ** t=03:36:02  rank....8470 # Sleepy Joe overslept today
-Day 12: SRain Risk
+Day 12: Rain Risk
     * t=00:34:02  rank....4648
    ** t=01:00:52  rank....3974
+Day 13: Shuttle Search
+    * t=00:40:27  rank....6270
+   ** t=    >24h  rank...22222 # Yepp, I hated CRT back in college, and the feeling seems mutual
+Day 14: Docking Data
+    * t=00:42:31  rank....3968
+   ** t=01:05:53  rank....2664
+Day 15: Rambunctious Recitation
+    * t=02:53:26  rank....9617 # Sleepy Joe strikes again
+   ** t=04:38:15  rank...10994 # Sleepy Joe strikes again
 ```
 
-In defense of Sleepy Joe, at us it is 6 in the morning when a new puzzle becomes available.
+In defense of Sleepy Joe, at us it is 6 in the morning when a new puzzle becomes available. Also, even if Sleepy Joe
+oversleeps, he still has a job, which has higher priority, then the puzzle.
