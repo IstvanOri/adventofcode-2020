@@ -1,4 +1,5 @@
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 class Day6(AbstractDay.AbstractDay):
@@ -93,13 +94,8 @@ class Day6(AbstractDay.AbstractDay):
     For each group, count the number of questions to which everyone answered "yes". What is the sum of those counts?
     """
 
-    def __init__(self):
-        self.entries = []
-
     def _set_input(self, input_: str):
-        if len(input_) != 0:
-            rows = input_.split('\n\n')
-            self.entries = rows
+        self.entries = InputReader.read_paragraph_by_paragraph(input_)
 
     def part1(self) -> str:
         sum_ = 0

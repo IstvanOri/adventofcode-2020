@@ -2,6 +2,7 @@ from itertools import combinations
 from math import prod
 
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 class Day1(AbstractDay.AbstractDay):
@@ -37,18 +38,15 @@ class Day1(AbstractDay.AbstractDay):
         In your expense report, **what is the product of the three entries that sum to `2020`**?
     """
 
-    def __init__(self):
-        self.entries = []
-
     def _set_input(self, input_: str):
         """
         Setting up the input while converting the values to int.
 
         :param input_: the raw input.
         """
-        self.input = input_
+        self.entries = []
         try:
-            self.entries = list(map(int, input_.split()))
+            self.entries = InputReader.read(input_, int)
         except ValueError:
             print('Every entry in the input has to be a number. No results for you!')
 

@@ -1,7 +1,7 @@
 import re
-from functools import reduce
 
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 def is_true(lst: {}) -> bool:
@@ -147,13 +147,8 @@ class Day4(AbstractDay.AbstractDay):
     cid as optional. In your batch file, how many passports are valid?
     """
 
-    def __init__(self):
-        self.entries = []
-
     def _set_input(self, input_: str):
-        if len(input_) != 0:
-            rows = input_.split('\n\n')
-            self.entries = rows
+        self.entries = InputReader.read_paragraph_by_paragraph(input_)
 
     def part1(self) -> str:
         valid = 0

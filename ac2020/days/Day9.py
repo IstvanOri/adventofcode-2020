@@ -1,6 +1,7 @@
 from itertools import combinations
 
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 class Day9(AbstractDay.AbstractDay):
@@ -113,9 +114,7 @@ class Day9(AbstractDay.AbstractDay):
         """
         Splits the input to an array of integers (each line of the input contains a number)
         """
-        self.entries = []
-        if len(input_) != 0:
-            self.entries = list(map(int, input_.split('\n')))
+        self.entries = InputReader.read_line_by_line(input_, int)
 
     def part1(self) -> str:
         for i in range(self._PREAMBLE_, len(self.entries)):

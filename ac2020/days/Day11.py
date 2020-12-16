@@ -1,6 +1,7 @@
 import copy
 
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 class Day11(AbstractDay.AbstractDay):
@@ -235,9 +236,7 @@ class Day11(AbstractDay.AbstractDay):
         Splitting the input by rows, and each row (strings) are converted to list, so the result is a list of list,
         where each 'cell' in the matrix is the state of a single seat.
         """
-        self.entries = []
-        if len(input_) != 0:
-            self.entries = list(list(row) for row in input_.split('\n'))
+        self.entries = InputReader.read_character_matrix(input_)
 
     def part1(self) -> str:
         changed = True

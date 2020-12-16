@@ -1,5 +1,6 @@
 from collections import defaultdict
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 def plug_all(adapters: list) -> list:
@@ -194,10 +195,8 @@ class Day10(AbstractDay.AbstractDay):
         """
         Splits the input into a list of numbers, the input contains one number in a row.
         """
-        self.entries = []
-        if len(input_) != 0:
-            self.entries = list(map(int, input_.split('\n')))
-            self.entries.sort()
+        self.entries = InputReader.read_line_by_line(input_, int)
+        self.entries.sort()
 
     def part1(self) -> str:
         if len(self.entries) == 0:

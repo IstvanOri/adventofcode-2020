@@ -1,8 +1,7 @@
 import math
-import re
-from functools import reduce
 
 from ac2020.days import AbstractDay
+from ac2020.io import InputReader
 
 
 def calc_id(entry):
@@ -88,13 +87,8 @@ class Day5(AbstractDay.AbstractDay):
     **What is the ID of your seat?**
     """
 
-    def __init__(self):
-        self.entries = []
-
     def _set_input(self, input_: str):
-        if len(input_) != 0:
-            rows = input_.split()
-            self.entries = rows
+        self.entries = InputReader.read(input_)
 
     def part1(self) -> str:
         max_id = 0
