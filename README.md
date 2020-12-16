@@ -64,6 +64,9 @@ Day 14: Docking Data
 Day 15: Rambunctious Recitation
     * t=02:53:26  rank....9617 # Sleepy Joe strikes again
    ** t=04:38:15  rank...10994 # Sleepy Joe strikes again
+Day 16: Ticket Translation
+    * t=02:33:31  rank....8393 # Sleepy Joe is on fire
+   ** t=03:27:25  rank....6164 # Sleepy Joe is on fire
 ```
 
 In defense of Sleepy Joe, at us it is 6 in the morning when a new puzzle becomes available. Also, even if Sleepy Joe
