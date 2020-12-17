@@ -67,6 +67,9 @@ Day 15: Rambunctious Recitation
 Day 16: Ticket Translation
     * t=02:33:31  rank....8393 # Sleepy Joe is on fire
    ** t=03:27:25  rank....6164 # Sleepy Joe is on fire
+Day 17: Conway Cubes
+    * t=01:20:29  rank....3406
+   ** t=01:28:04  rank....3080
 ```
 
 In defense of Sleepy Joe, at us it is 6 in the morning when a new puzzle becomes available. Also, even if Sleepy Joe
