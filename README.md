@@ -70,6 +70,15 @@ Day 16: Ticket Translation
 Day 17: Conway Cubes
     * t=01:20:29  rank....3406
    ** t=01:28:04  rank....3080
+Day 18: Operation Order
+    * t=00:32:04  rank....1625
+   ** t=02:09:41  rank....3945
+Day 19: Monster Messages
+    * t=01:49:07  rank....3406
+   ** t=01:53:57  rank....3080
+Day 20: Jurassic Jigsaw
+    * t=00:47:53  rank....1106
+   ** t=06:15:26  rank....1820
 ```
 
 In defense of Sleepy Joe, at us it is 6 in the morning when a new puzzle becomes available. Also, even if Sleepy Joe
