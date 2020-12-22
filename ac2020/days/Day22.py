@@ -10,7 +10,7 @@ def game(deck1, deck2):
     log = set()
 
     while len(hand1) != 0 and len(hand2) != 0:
-        hashed = tuple(hand1 + hand2)
+        hashed = ''.join(map(str, hand1)) + '|' + ''.join(map(str, hand2))
         if hashed in log:
             return hand1, []
         log.add(hashed)

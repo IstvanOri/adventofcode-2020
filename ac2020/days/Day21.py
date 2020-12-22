@@ -11,6 +11,7 @@ class Day21(AbstractDay.AbstractDay):
         self.ingredients = []
         self.foods = []
         self.allergens = []
+        self.part2_result = ''
         if len(input_) != 0:
             lines = InputReader.read_line_by_line(input_)
             for line in lines:
@@ -52,15 +53,11 @@ class Day21(AbstractDay.AbstractDay):
         i = 0
         for food in self.foods:
             i += len(set(food).intersection(non_allergens))
-        print(dangerous)
-        result = ''
         for name in sorted(dangerous):
-            if len(result) != 0:
-                result += ','
-            result += dangerous[name]
-        print(result)
+            if len(self.part2_result) != 0:
+                self.part2_result += ','
+            self.part2_result += dangerous[name]
         return str(i)
 
     def part2(self):
-        print(self.allergens)
-        return ''
+        return self.part2_result
